@@ -1,0 +1,124 @@
+body {
+    background-image: url("pexels-lukas-669576.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    overflow-x: hidden; /* hide horizontal scrollbar */
+    margin-left: 40px;
+    margin-right: 30px;
+    background-color: rgb(206, 202, 202);
+    text-align: center;
+    font-family: 'Bruno Ace', cursive;
+    color: #fff;
+  }
+  
+  .box {
+    display: flex;
+    height: 340px;
+    width: 300px;
+    color: white;
+    background-color: rgb(10, 10, 10);
+    justify-content: center;
+    align-items: center;
+    transition: all 2s ease-in;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden; /* prevent text overflow */
+  }
+  
+  #box1 {
+    background-image: url("t1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #box2 {
+    background-image: url("t2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #box3 {
+    background-image: url("t3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #box4 {
+    background-image: url("t4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .box:hover {
+    border-radius: 15px;
+    background-color: rgb(66, 141, 253);
+    height: 390px;
+    width: 350px;
+    opacity: 1;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 2.5rem;
+  }
+  
+  header::before {
+    background-image: url("pexels-lukas-669576.jpg");
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.6;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  
+  section {
+    height: 700px;
+    width: 1450px;
+    display: flex;
+    margin: 0px 0px;
+    margin-right: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  p {
+    font-size: larger;
+    transition: none; /* disable transition on hover */
+  }
+  
+  h1 {
+    font-size: 40px;
+    font-family: 'Bruno Ace SC', cursive;
+  }
+  
+  h2 {
+    font-size: 22px;
+    font-family: 'Bruno Ace SC', cursive;
+  }
+  
+  .show-text {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+  
+  .box:hover {
+    border-radius: 15px;
+    background-color: rgb(66, 141, 253);
+    opacity: 1;
+    }
+    
+    
+  
+  .box:hover .text {
+    opacity: 1;
+    transform: none;
+  }
+  

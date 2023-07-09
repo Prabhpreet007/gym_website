@@ -1,0 +1,270 @@
+body {
+  height: 100%;
+  
+}
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+
+
+body {
+  background-image: url("image2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  
+}
+h1{
+  font-size: xxx-large;
+  color: #fff;
+  text-align: center;
+}
+
+h2 {
+  font-size: xx-large;
+  color: #fff;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.pricing {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.price-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.price-card {
+  background-color: rgba(255, 255, 255, 0.8); /* make background color transparent */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 30px;
+  width: calc(33.33% - 20px);
+  margin: 0 10px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.price-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.price-card h3 {
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 36px;
+  font-weight: bold;
+  color: #080808; /* change font color to white */
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #050505; /* change font color to white */
+}
+
+button{
+
+  background-color: #27ae60;
+  color: #fff;
+  border: #27ae60;}
+  .mid {
+    display: block;
+    width: 661px;
+    margin: 0px ;
+    color: antiquewhite;
+    margin-left: 381px;
+
+}
+.left {
+  position: absolute;
+  top: 20px;
+  left: 25px;
+  display: inline-block;
+  color: rgb(246, 248, 247);
+  font-size: 10px;
+  font-family: 'M PLUS 1p', sans-serif;
+
+}
+
+.mid {
+  display: block;
+  width: 675px;
+  margin: 0px ;
+  color: antiquewhite;
+  margin-left: 381px;
+
+}
+
+.right {
+    position: absolute;
+    top: 20px;
+    right: 9px;
+    display: inline-block;
+    color: wheat;
+
+}
+
+.navbar {
+    color: aliceblue;
+    display: inline-block;
+    margin-left: 55px;
+    margin-top: 35px;
+}
+
+.navbar li {
+    color: aliceblue;
+    display: inline-block;
+    font-size: 17px;
+
+}
+
+.navbar li a {
+    color: aliceblue;
+    padding: 25px 23px;
+    text-decoration: none;
+
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+    color: rgb(156, 153, 153);
+}
+
+.left img {
+    filter: invert(100%);
+    position: relative;
+    top: 0px;
+    left: 4px;
+}
+
+.btn {
+    margin: 14px 6px;
+    color: black;
+    background-color: white;
+    padding: 3px 8px;
+    border: 2px solid grey;
+    border-radius: 7px;
+    font-size: 1Epx;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btn a{
+  text-decoration: none;
+  color: black;
+}
+
+.btn:hover {
+    background-color: grey;
+}
+nav ul li:nth-child(2) {
+position: relative;
+}
+
+nav ul li:nth-child(2) img {
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+width: 200px;
+padding: 1px;
+background-color: white;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+z-index: 1;
+}
+
+nav ul li:nth-child(2):hover img {
+display: block;
+}
+nav ul li:nth-child(1) {
+position: relative;
+}
+
+nav ul li:nth-child(1) img {
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+width: 200px;
+padding: 1px;
+background-color: white;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+z-index: 1;
+}
+
+nav ul li:nth-child(1):hover img {
+display: block;
+}
+nav ul li:nth-child(3) {
+position: relative;
+}
+
+nav ul li:nth-child(3) img {
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+width: 200px;
+padding: 1px;
+background-color: white;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+z-index: 1;
+}
+
+nav ul li:nth-child(3):hover img {
+display: block;
+}
+nav ul li:nth-child(4) {
+position: relative;
+}
+
+nav ul li:nth-child(4) img {
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+width: 200px;
+padding: 1px;
+background-color: white;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+z-index: 1;
+}
+
+nav ul li:nth-child(4):hover img {
+display: block;
+}
+
+nav ul li:nth-child(5) {
+position: relative;
+}
+
+nav ul li:nth-child(5) img {
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+width: 200px;
+padding: 1px;
+background-color: white;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+z-index: 1;
+}
+
+nav ul li:nth-child(5):hover img {
+display: block;
+}
